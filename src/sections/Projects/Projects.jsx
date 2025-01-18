@@ -19,13 +19,13 @@ function Projects() {
           />
           <ProjectCard
             src={library}
-            link="https://github.com/Tseringkhando/library-management/tree/master/tseringlama-18406499-sourcecode"
+            link="https://github.com/Tseringkhando/library-management"
             h3="Library Management App"
             p="A Java Swing Demo"
           />
           <ProjectCard
             src={zoo}
-            link="https://github.com/Tseringkhando/myzoo/blob/master/images/zooimages/logo.png"
+            link="https://github.com/Tseringkhando/myzoo"
             h3="Claybrook Zoo"
             p="A website for zoo"
           />
