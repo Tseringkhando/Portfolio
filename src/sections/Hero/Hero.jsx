@@ -29,7 +29,7 @@ function Hero() {
 
         <div className={styles.info}>
           <h1>Tsering Khando Lama</h1>
-          <h2>Nobody</h2>
+          <h3>...</h3>
           <span>
             <a href="https:\\www.linkedin.com/in/khando" target="_blank">
               <img src={linkedinIcon} alt="Link to linkedin" />
