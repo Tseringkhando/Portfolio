@@ -37,10 +37,12 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="GraphQL" />
         <SkillList src={checkMarkIcon} skill="MySQL" />
       </div>
+      <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="GIT" />
         <SkillList src={checkMarkIcon} skill="Docker" />
       </div>
+      <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Problem-Solver" />
         <SkillList src={checkMarkIcon} skill="Critical Thinker" />
