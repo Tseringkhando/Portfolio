@@ -5,7 +5,7 @@
   --project-card-bg: #ffffff00;
   --text-color: #07091d;
   --form-text-color: #555;
-  --footer-text-color: #888;
+  --footer-text-color: #000000;
 }
 
 [data-theme='dark'] {
@@ -15,7 +15,7 @@
   --project-card-bg: #fff;
   --text-color: #fff;
   --form-text-color: #fff;
-  --footer-text-color: #bbb;
+  --footer-text-color: #ffffff;
 }
 
 body {

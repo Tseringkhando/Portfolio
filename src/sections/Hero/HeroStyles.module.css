@@ -14,6 +14,14 @@
     border-radius: 65% 40%;
   }
 
+  .heroImg:hover{
+    transform: scale(1.1);
+    border: 1px solid #ffab609e;
+    box-shadow: 0px 3px 8px 1px #fff;
+    transition: 1.3s;
+    cursor: pointer;
+  }
+
   span {
     display: flex;
     gap: 25px;
@@ -43,6 +51,7 @@
     font-size: 20px;
     font-weight: bold;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    transform: scale(1.1);
     transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
   }
 
@@ -68,6 +77,8 @@
 
 .colorMode:hover {
   cursor: pointer;
+  transform: scale(1.2);
+  transition: transform 200ms ease-in-out;
 }
 
 .description {
@@ -80,6 +91,10 @@
   gap: 20px;
 }
 
+h1:hover{
+  cursor: pointer;
+  text-shadow: -4px 0px 7px #ddd;
+}
 @media (width >= 800px) {
   .container {
     flex-direction: row-reverse;
